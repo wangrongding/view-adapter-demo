@@ -23,7 +23,7 @@ const config = {
 
     // 自定义插件
     viewAdapter({
-      ignore1px: false,
+      ignore1px: true,
       viewportWidth: 414,
     }),
   ],

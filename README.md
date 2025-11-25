@@ -4,6 +4,14 @@
 
 自用的 postcss plugin，将 px 按规则编译成指定的适配方案
 
+## 注意
+
+使用此插件 runtime 需支持:
+
+- CSS 自定义变量： var(--unit)
+- CSS 计算属性： calc()
+- CSS 媒体查询：@media (max-width: 414px) { ... }
+
 ## 开发
 
 ```bash
