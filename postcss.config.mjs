@@ -25,6 +25,8 @@ const config = {
     viewAdapter({
       ignore1px: true,
       viewportWidth: 414,
+      // 只处理 src/app/demo1 ，src/app/demo2 下的 .scss 文件, 其余的不处理
+      include: ['app/demo1', 'app/demo2'],
     }),
   ],
 }
