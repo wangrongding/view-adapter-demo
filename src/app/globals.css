@@ -7,7 +7,6 @@
 
 @media (max-width: 414px) {
   :root {
-    /* For screens 414px or narrower, 1unit is 100vw / 414 = 0.2415vw */
     /* 对于414px或更窄的屏幕，1unit 是 100vw / 414 = 0.2415vw */
     /* --unit: calc(100vw / 414); */
   }
